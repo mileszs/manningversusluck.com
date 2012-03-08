@@ -1,7 +1,36 @@
 var cmp_percentage; 
 var interceptions; 
 var touchdowns; 
+var quarterback_rating;
 $(document).ready(function() {
+  quarterback_rating = new Highcharts.Chart({
+    chart: {
+      renderTo: 'quarterback-rating',
+      type: 'line'
+    },
+    title: {
+      text: 'Quarterback Rating'
+    },
+    xAxis: {
+      title: {
+        text: 'Game'
+      },
+      categories: ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16']
+    },
+    yAxis: {
+      title: {
+        text: 'Rating'
+      }
+    },
+    series: [{
+      name: 'Manning',
+      data: [58.6, 51.1, 39.3, 63.2, 66.8, 62.6, 117.5, 69.2, 47.7, 81.3, 48.6, 105.0, 79.1, 128.7, 84.9, 56.6]
+    }, {
+      name: 'Luck',
+      data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    }]
+  });
+                      
   cmp_percentage = new Highcharts.Chart({
     chart: {
       renderTo: 'cmp_percentage',
