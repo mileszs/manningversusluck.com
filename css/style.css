@@ -1,1 +1,16 @@
-/* Coming soon... ? */
+body {
+  background-image: url('/img/project_papper.png');
+  color: #666;
+}
+
+h1 {
+  color: #666;
+}
+
+.charts {
+  margin: 40px 0;
+}
+
+footer {
+  text-align: center;
+}

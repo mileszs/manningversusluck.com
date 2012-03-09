@@ -9,7 +9,8 @@ $(document).ready(function() {
       type: 'line'
     },
     title: {
-      text: 'Quarterback Rating'
+      text: 'Quarterback Rating',
+      align: 'left',
     },
     xAxis: {
       title: {
@@ -37,7 +38,8 @@ $(document).ready(function() {
       type: 'line'
     },
     title: {
-      text: 'Completion Percentage'
+      text: 'Completion Percentage',
+      align: 'left',
     },
     xAxis: {
       title: {
@@ -65,7 +67,8 @@ $(document).ready(function() {
       type: 'line'
     },
     title: {
-      text: 'Interceptions'
+      text: 'Interceptions',
+      align: 'left',
     },
     xAxis: {
       title: {
@@ -93,7 +96,8 @@ $(document).ready(function() {
       type: 'line'
     },
     title: {
-      text: 'Touchdowns'
+      text: 'Touchdowns',
+      align: 'left',
     },
     xAxis: {
       title: {
