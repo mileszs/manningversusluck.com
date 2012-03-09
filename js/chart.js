@@ -1,6 +1,6 @@
-var cmp_percentage; 
-var interceptions; 
-var touchdowns; 
+var cmp_percentage;
+var interceptions;
+var touchdowns;
 var quarterback_rating;
 $(document).ready(function() {
   quarterback_rating = new Highcharts.Chart({
@@ -30,14 +30,14 @@ $(document).ready(function() {
       data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }]
   });
-                      
+
   cmp_percentage = new Highcharts.Chart({
     chart: {
       renderTo: 'cmp_percentage',
       type: 'line'
     },
     title: {
-      text: 'Cmp% Comparison'
+      text: 'Completion Percentage'
     },
     xAxis: {
       title: {
@@ -58,7 +58,7 @@ $(document).ready(function() {
       data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }]
   });
-                      
+
   interceptions = new Highcharts.Chart({
     chart: {
       renderTo: 'interceptions',
@@ -86,7 +86,7 @@ $(document).ready(function() {
       data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     }]
   });
-                      
+
   touchdowns = new Highcharts.Chart({
     chart: {
       renderTo: 'touchdowns',
