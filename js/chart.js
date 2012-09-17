@@ -34,7 +34,7 @@ $(document).ready(function() {
 
   cmp_percentage = new Highcharts.Chart({
     chart: {
-      renderTo: 'cmp_percentage',
+      renderTo: 'cmp-percentage',
       type: 'line'
     },
     title: {
@@ -58,6 +58,38 @@ $(document).ready(function() {
     }, {
       name: 'Luck',
       data: [51.1,64.5]
+    }]
+  });
+
+  yards = new Highcharts.Chart({
+    chart: {
+      renderTo: 'yards',
+      type: 'line'
+    },
+    title: {
+      text: 'Yards',
+      align: 'left',
+    },
+    xAxis: {
+      title: {
+        text: 'Game'
+      },
+      categories: ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16']
+    },
+    yAxis: {
+      title: {
+        text: 'Yards'
+      },
+      min: 0,
+      startOnTick: true,
+      allowDecimals: false
+    },
+    series: [{
+      name: 'Manning',
+      data: [302,188,193,309,137,235,231,278,140,276,164,357,159,210,335,225]
+    }, {
+      name: 'Luck',
+      data: [309,224]
     }]
   });
 
