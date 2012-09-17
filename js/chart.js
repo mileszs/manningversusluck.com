@@ -28,7 +28,7 @@ $(document).ready(function() {
       data: [58.6, 51.1, 39.3, 63.2, 66.8, 62.6, 117.5, 69.2, 47.7, 81.3, 48.6, 105.0, 79.1, 128.7, 84.9, 56.6]
     }, {
       name: 'Luck',
-      data: [52.9,107.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      data: [52.9,107.5]
     }]
   });
 
@@ -57,7 +57,7 @@ $(document).ready(function() {
       data: [56.8, 63.6, 45.5, 59.4, 52.2, 48.8, 60.0, 57.7, 52.4, 59.1, 48.3, 64.3, 70.4, 65.4, 59.0, 50.0]
     }, {
       name: 'Luck',
-      data: [51.1,64.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      data: [51.1,64.5]
     }]
   });
 
@@ -79,14 +79,17 @@ $(document).ready(function() {
     yAxis: {
       title: {
         text: 'INTs'
-      }
+      },
+      min: 0,
+      startOnTick: true,
+      allowDecimals: false
     },
     series: [{
       name: 'Manning',
       data: [3,3,2,3,1,2,0,2,2,2,2,1,2,0,1,2]
     }, {
       name: 'Luck',
-      data: [3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      data: [3,0]
     }]
   });
 
@@ -108,14 +111,17 @@ $(document).ready(function() {
     yAxis: {
       title: {
         text: 'TDs'
-      }
+      },
+      min: 0,
+      startOnTick: true,
+      allowDecimals: false
     },
     series: [{
       name: 'Manning',
       data: [1,1,0,1,1,2,3,2,1,3,1,3,2,3,1,1]
     }, {
       name: 'Luck',
-      data: [1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      data: [1,2]
     }]
   });
 });
