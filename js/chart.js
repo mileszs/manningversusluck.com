@@ -24,11 +24,14 @@ $(document).ready(function() {
       }
     },
     series: [{
-      name: 'Manning',
+      name: 'Rookie Manning',
       data: [58.6, 51.1, 39.3, 63.2, 66.8, 62.6, 117.5, 69.2, 47.7, 81.3, 48.6, 105.0, 79.1, 128.7, 84.9, 56.6]
     }, {
       name: 'Luck',
       data: [52.9,107.5, 75.7]
+    }, {
+      name: '2012 Manning',
+      data: [129.2, 58.5, 83.0]
     }]
   });
 
@@ -53,11 +56,14 @@ $(document).ready(function() {
       }
     },
     series: [{
-      name: 'Manning',
+      name: 'Rookie Manning',
       data: [56.8, 63.6, 45.5, 59.4, 52.2, 48.8, 60.0, 57.7, 52.4, 59.1, 48.3, 64.3, 70.4, 65.4, 59.0, 50.0]
     }, {
       name: 'Luck',
       data: [51.1,64.5, 47.8]
+    }, {
+      name: '2012 Manning',
+      data: [73.1, 64.9, 50.0]
     }]
   });
 
@@ -85,11 +91,14 @@ $(document).ready(function() {
       allowDecimals: false
     },
     series: [{
-      name: 'Manning',
+      name: 'Rookie Manning',
       data: [302,188,193,309,137,235,231,278,140,276,164,357,159,210,335,225]
     }, {
       name: 'Luck',
       data: [309,224, 313]
+    }, {
+      name: '2012 Manning',
+      data: [253,241,330]
     }]
   });
 
@@ -117,11 +126,14 @@ $(document).ready(function() {
       allowDecimals: false
     },
     series: [{
-      name: 'Manning',
+      name: 'Rookie Manning',
       data: [3,3,2,3,1,2,0,2,2,2,2,1,2,0,1,2]
     }, {
       name: 'Luck',
       data: [3,0,1]
+    }, {
+      name: '2012 Manning',
+      data: [0,3,0]
     }]
   });
 
@@ -149,11 +161,14 @@ $(document).ready(function() {
       allowDecimals: false
     },
     series: [{
-      name: 'Manning',
+      name: 'Rookie Manning',
       data: [1,1,0,1,1,2,3,2,1,3,1,3,2,3,1,1]
     }, {
       name: 'Luck',
       data: [1,2,2]
+    }, {
+      name: '2012 Manning',
+      data: [2,1,2],
     }]
   });
 });
