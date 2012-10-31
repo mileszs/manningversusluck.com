@@ -168,7 +168,7 @@ $(document).ready(function() {
       data: [1,2,2,2,0,0,1]
     }, {
       name: '2012 Manning',
-      data: [2,1,2,3,3,3],
+      data: [2,1,2,3,3,3,3],
     }]
   });
 });
